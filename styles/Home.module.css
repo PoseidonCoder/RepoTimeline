@@ -5,7 +5,7 @@
 
 .backToGenerator {
   position: fixed;
-  margin: 0;
+  margin: 10px;
   z-index: 1;
 }
 

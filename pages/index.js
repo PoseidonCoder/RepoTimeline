@@ -52,7 +52,13 @@ export default function Home() {
           </button>
         ) : (
           <section>
-            <h1 className={styles.title} style={{ textAlign: "center" }}>
+            <h1
+              className={styles.title}
+              style={{
+                textAlign: "center",
+                fontSize: "3rem",
+              }}
+            >
               GitHub Timeline
             </h1>
             <form action="/">
