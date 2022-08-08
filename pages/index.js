@@ -79,6 +79,16 @@ export default function Home() {
               <button type="submit">generate</button>
               {error && <h1 className={styles.error}>{error}</h1>}
             </form>
+            <footer className={styles.footer}>
+              Made with ❤️ by{" "}
+              <a
+                href="https://github.com/PoseidonCoder/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                PoseidonCoder
+              </a>
+            </footer>
           </section>
         )}
         <section>
@@ -114,16 +124,6 @@ export default function Home() {
             ))}
         </section>
       </main>
-      <footer className={styles.footer}>
-        Made with ❤️ by{" "}
-        <a
-          href="https://github.com/PoseidonCoder/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          PoseidonCoder
-        </a>
-      </footer>
     </div>
   );
 }
