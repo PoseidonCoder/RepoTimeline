@@ -41,6 +41,10 @@ form *:not(input) {
   margin-top: 10px;
 }
 
+a {
+  text-decoration: underline;
+}
+
 form {
   background: var(--green);
   padding: 2rem;

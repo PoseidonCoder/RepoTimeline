@@ -60,7 +60,13 @@ export default function Home() {
                 marginBottom: "8px",
               }}
             >
-              GitHub Timeline
+              <a
+                href="https://github.com/PoseidonCoder/RepoTimeline"
+                target="_blank"
+                rel="noreferrer"
+              >
+                RepoTimeline
+              </a>
             </h1>
             <form action="/">
               <label htmlFor="username">Username:</label>
@@ -108,6 +114,16 @@ export default function Home() {
             ))}
         </section>
       </main>
+      <footer className={styles.footer}>
+        Made with ❤️ by{" "}
+        <a
+          href="https://github.com/PoseidonCoder/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          PoseidonCoder
+        </a>
+      </footer>
     </div>
   );
 }

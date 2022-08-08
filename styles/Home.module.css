@@ -9,6 +9,15 @@
   z-index: 1;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem;
+  background-color: aliceblue;
+  width: 100%;
+}
+
 .timeline {
   list-style-type: none;
   padding: 0;
@@ -25,7 +34,6 @@
 
 .title {
   font-weight: lighter;
-  text-decoration: underline;
 }
 
 .error {
