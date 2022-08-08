@@ -83,6 +83,7 @@ export default function Home() {
                         <h1 className={styles.title}>
                           <a
                             target="_blank"
+                            rel="noreferrer"
                             href={"https://github.com/" + full_name}
                           >
                             {name}
