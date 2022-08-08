@@ -46,6 +46,8 @@ form {
   padding: 2rem;
   width: 50%;
   margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 5px 0px 20px lightgray;
 }
 
 button {
