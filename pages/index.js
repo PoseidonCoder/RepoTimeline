@@ -57,6 +57,7 @@ export default function Home() {
               style={{
                 textAlign: "center",
                 fontSize: "3rem",
+                marginBottom: "8px",
               }}
             >
               GitHub Timeline
