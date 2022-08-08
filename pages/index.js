@@ -95,7 +95,9 @@ export default function Home() {
                             {name}
                           </a>
                         </h1>
-                        <time>{new Date(created_at).toDateString()}</time>
+                        <time>
+                          <i>{new Date(created_at).toDateString()}</i>
+                        </time>
                         {description && <p>{description}</p>}
                       </div>
                     </li>
