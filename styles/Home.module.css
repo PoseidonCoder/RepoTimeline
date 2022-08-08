@@ -52,6 +52,8 @@
   background: var(--beige);
   padding: 2rem;
   border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 20px lightgray;
 }
 
 /* CIRCLES */
@@ -95,9 +97,11 @@
 .timeline li:nth-child(odd) div {
   left: 0;
   text-align: right;
+  border-right: 0px;
 }
 
 .timeline li:nth-child(even) div {
   left: 55%;
+  border-left: 0px;
   text-align: left;
 }
