@@ -25,6 +25,7 @@
 
 .title {
   font-weight: lighter;
+  text-decoration: underline;
 }
 
 .error {
